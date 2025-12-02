@@ -1,0 +1,16 @@
+base_model,strategy,cv_mean_auc,cv_predict_auc,train_time_sec,best_params
+svm,ECOC,0.9949999999999999,0.997,0.508637249993626,"{'estimator__model__C': 1, 'estimator__model__gamma': 'scale', 'estimator__model__kernel': 'rbf'}"
+svm,OvR,0.9949999999999999,0.9969333333333333,0.479383957979735,"{'estimator__model__C': 1, 'estimator__model__gamma': 'scale', 'estimator__model__kernel': 'rbf'}"
+svm,OvO,0.9946666666666666,0.9954666666666667,0.25240212498465553,"{'estimator__model__C': 0.1, 'estimator__model__gamma': 'scale', 'estimator__model__kernel': 'rbf'}"
+knn,OvR,0.994,0.9953333333333333,0.6119075000169687,"{'estimator__model__n_neighbors': 9, 'estimator__model__p': 1, 'estimator__model__weights': 'distance'}"
+knn,ECOC,0.994,0.9953333333333333,0.6477987079997547,"{'estimator__model__n_neighbors': 9, 'estimator__model__p': 1, 'estimator__model__weights': 'distance'}"
+logreg,OvO,0.9946666666666666,0.9952,0.07186358398757875,"{'estimator__model__C': 0.1, 'estimator__model__penalty': 'l2', 'estimator__model__solver': 'lbfgs'}"
+logreg,OvR,0.9913333333333334,0.9932666666666666,0.13612579100299627,"{'estimator__model__C': 10.0, 'estimator__model__penalty': 'l2', 'estimator__model__solver': 'lbfgs'}"
+naive_bayes,OvR,0.9893333333333334,0.9909333333333333,0.08864333300152794,{'estimator__model__var_smoothing': 1e-09}
+naive_bayes,ECOC,0.9883333333333333,0.9908,0.0976699169841595,{'estimator__model__var_smoothing': 1e-09}
+knn,OvO,0.9883333333333333,0.9898666666666666,0.372824624995701,"{'estimator__model__n_neighbors': 7, 'estimator__model__p': 2, 'estimator__model__weights': 'uniform'}"
+logreg,ECOC,0.9876666666666667,0.9889333333333333,0.1356477920198813,"{'estimator__model__C': 10.0, 'estimator__model__penalty': 'l2', 'estimator__model__solver': 'lbfgs'}"
+decision_tree,OvR,0.982,0.9819999999999999,0.7888717920286581,"{'estimator__model__criterion': 'gini', 'estimator__model__max_depth': None, 'estimator__model__min_samples_leaf': 4}"
+decision_tree,ECOC,0.982,0.9819333333333334,0.6872312079649419,"{'estimator__model__criterion': 'gini', 'estimator__model__max_depth': None, 'estimator__model__min_samples_leaf': 4}"
+naive_bayes,OvO,0.9799999999999999,0.9796,0.05684816598659381,{'estimator__model__var_smoothing': 1e-09}
+decision_tree,OvO,0.9736666666666668,0.9746,0.42415987502317876,"{'estimator__model__criterion': 'gini', 'estimator__model__max_depth': None, 'estimator__model__min_samples_leaf': 4}"

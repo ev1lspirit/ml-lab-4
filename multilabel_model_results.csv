@@ -1,0 +1,11 @@
+base_model,strategy,cv_mean_auc,cv_predict_auc,train_time_sec,best_params
+svm,ClassifierChain,0.9249782101229936,0.9234400040100799,3.499715958023444,"{'estimator__model__C': 0.5, 'estimator__model__gamma': 'scale', 'estimator__model__kernel': 'rbf'}"
+svm,MultiOutput,0.9229837365218684,0.9213387300742768,3.4741560829570517,"{'estimator__model__C': 0.5, 'estimator__model__gamma': 'scale', 'estimator__model__kernel': 'rbf'}"
+logreg,ClassifierChain,0.8953773394918331,0.894730741531597,0.10960316599812359,"{'estimator__model__C': 0.5, 'estimator__model__penalty': 'l2', 'estimator__model__solver': 'lbfgs'}"
+logreg,MultiOutput,0.8923404528257413,0.8910276447076264,0.09663624997483566,"{'estimator__model__C': 0.5, 'estimator__model__penalty': 'l2', 'estimator__model__solver': 'lbfgs'}"
+naive_bayes,MultiOutput,0.8911409541003966,0.8899706790675138,0.03435037500457838,{'estimator__model__var_smoothing': 1e-09}
+naive_bayes,ClassifierChain,0.8904348497955317,0.8895844517267566,0.04324916598852724,{'estimator__model__var_smoothing': 1e-09}
+knn,MultiOutput,0.8902620533299108,0.8892251178309831,0.47365045902552083,"{'estimator__model__n_neighbors': 7, 'estimator__model__p': 1, 'estimator__model__weights': 'distance'}"
+knn,ClassifierChain,0.8897931465261738,0.8889610212047623,1.4317416250123642,"{'estimator__model__n_neighbors': 7, 'estimator__model__p': 1, 'estimator__model__weights': 'distance'}"
+decision_tree,ClassifierChain,0.8355644832582673,0.8364323477113281,0.3811383749707602,"{'estimator__model__max_depth': 5, 'estimator__model__min_samples_leaf': 4}"
+decision_tree,MultiOutput,0.8318007807721985,0.832289264755014,0.3576531669823453,"{'estimator__model__max_depth': 5, 'estimator__model__min_samples_leaf': 4}"
